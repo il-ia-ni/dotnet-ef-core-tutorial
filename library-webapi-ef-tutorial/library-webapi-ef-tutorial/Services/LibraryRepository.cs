@@ -1,4 +1,5 @@
 ﻿using DBFirstLibrary;
+using Microsoft.EntityFrameworkCore;
 
 namespace library_webapi_ef_tutorial.Services
 {
@@ -25,12 +26,14 @@ namespace library_webapi_ef_tutorial.Services
 
         public IQueryable<Book> ReadBooks()
         {
-            return _dbContext.Books;
+            // return _dbContext.Books;  // does lazy loading: Authors data is not requested, only Books data
+
+            return _dbContext.Books.Include(b => b.Author);  // does eager loading: Authors data is  requested per JOIN with Books data
         }
 
         public Book ReadBooks(int bookId)
         {
-            return _dbContext.Books.SingleOrDefault(book => book.BookId == bookId);
+            return _dbContext.Books.Include(b => b.Author).SingleOrDefault(book => book.BookId == bookId);
         }
 
         public void UpdateBook(int bookId, Book book_data)
