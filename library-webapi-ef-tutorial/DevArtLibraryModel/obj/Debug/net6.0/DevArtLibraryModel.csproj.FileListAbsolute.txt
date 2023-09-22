@@ -1,0 +1,14 @@
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\bin\Debug\net6.0\DevArtLibraryModel.deps.json
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\bin\Debug\net6.0\DevArtLibraryModel.runtimeconfig.json
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\bin\Debug\net6.0\DevArtLibraryModel.dll
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\bin\Debug\net6.0\DevArtLibraryModel.pdb
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.csproj.AssemblyReference.cache
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.AssemblyInfoInputs.cache
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.AssemblyInfo.cs
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.csproj.CoreCompileInputs.cache
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.dll
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\refint\DevArtLibraryModel.dll
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.pdb
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\DevArtLibraryModel.genruntimeconfig.cache
+C:\Users\niil02\Documents\git\tutorials\dotnet-ef-core-tutorial\library-webapi-ef-tutorial\DevArtLibraryModel\obj\Debug\net6.0\ref\DevArtLibraryModel.dll
