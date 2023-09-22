@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DBFirstLibrary
 {
-    public partial class Author
+    public partial class Author  // keyword partial lets extending the auto-generated class with additions in other files
     {
         public Author()
         {
