@@ -1,3 +1,6 @@
 library-webapi-ef-tutorial/.vs/
 *.v2
 *.bin
+*.vsidx
+*.bin
+*.dll
