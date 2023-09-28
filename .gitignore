@@ -1,6 +1,3 @@
 library-webapi-ef-tutorial/.vs/
-*.v2
-*.bin
-*.vsidx
-*.bin
-*.dll
+library-webapi-ef-tutorial\DBFirstLibrary\bin\Debug
+library-webapi-ef-tutorial\DBFirstLibrary\bin\Release
