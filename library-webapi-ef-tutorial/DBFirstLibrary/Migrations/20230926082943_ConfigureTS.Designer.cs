@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DBFirstLibrary.Migrations
 {
     [DbContext(typeof(libraryef1Context))]
-    [Migration("20230926071856_AddOptimisticConcurrencyTS")]
-    partial class AddOptimisticConcurrencyTS
+    [Migration("20230926082943_ConfigureTS")]
+    partial class ConfigureTS
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,9 +42,10 @@ namespace DBFirstLibrary.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<byte[]>("RowVersion")
-                        .IsRequired()
-                        .HasColumnType("longblob");
+                    b.Property<DateTime>("RowVersion")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("timestamp(6)");
 
                     b.HasKey("AuthorId");
 
@@ -65,9 +66,10 @@ namespace DBFirstLibrary.Migrations
                     b.Property<DateOnly?>("PublishedDate")
                         .HasColumnType("date");
 
-                    b.Property<byte[]>("RowVersion")
-                        .IsRequired()
-                        .HasColumnType("longblob");
+                    b.Property<DateTime>("RowVersion")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("timestamp(6)");
 
                     b.Property<string>("Title")
                         .IsRequired()

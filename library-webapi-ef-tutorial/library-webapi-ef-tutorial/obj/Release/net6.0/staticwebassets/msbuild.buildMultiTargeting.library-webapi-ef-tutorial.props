@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\library-webapi-ef-tutorial.props" />
+</Project>

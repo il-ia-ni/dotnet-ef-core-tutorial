@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace DBFirstLibrary
 {
@@ -9,7 +10,6 @@ namespace DBFirstLibrary
         public string Title { get; set; } = null!;
         public DateOnly? PublishedDate { get; set; }
         public long AuthorId { get; set; }
-
         public virtual Author Author { get; set; } = null!;
     }
 }

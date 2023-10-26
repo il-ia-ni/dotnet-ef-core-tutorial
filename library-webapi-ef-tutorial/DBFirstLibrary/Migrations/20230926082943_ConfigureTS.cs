@@ -1,25 +1,30 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace DBFirstLibrary.Migrations
 {
-    public partial class AddOptimisticConcurrencyTS : Migration
+    public partial class ConfigureTS : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<byte[]>(
+            migrationBuilder.AddColumn<DateTime>(
                 name: "RowVersion",
                 table: "books",
-                type: "longblob",
-                nullable: false);
+                type: "timestamp(6)",
+                rowVersion: true,
+                nullable: false)
+                .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.ComputedColumn);
 
-            migrationBuilder.AddColumn<byte[]>(
+            migrationBuilder.AddColumn<DateTime>(
                 name: "RowVersion",
                 table: "authors",
-                type: "longblob",
-                nullable: false);
+                type: "timestamp(6)",
+                rowVersion: true,
+                nullable: false)
+                .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.ComputedColumn);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

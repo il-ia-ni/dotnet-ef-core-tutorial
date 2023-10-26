@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\library-webapi-ef-tutorial.props" />
+</Project>
